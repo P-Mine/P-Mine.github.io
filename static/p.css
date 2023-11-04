@@ -1,0 +1,39 @@
+.main-container {
+    float: left;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+} 
+
+.titlebox {
+    margin: auto;
+    background-color: rgba(255, 255, 255, 75%);
+    border-radius: 5px 5px;
+    padding: 5px; 
+    width: 70%; 
+}
+
+/* Mobile devices */
+@media (max-width: 767px) { 
+    .titlebox {
+        width: 95%; 
+        float: center; 
+    } 
+}
+
+/* PCs */
+@media (min-width: 768px) { 
+    .titlebox { 
+        width: 65%; 
+        float: left; 
+        margin-left: 2.5%; 
+        margin-top: 100px; 
+    } 
+
+    .contentbox { 
+        width: 65%; 
+        float: left; 
+        margin-left: 2.5%; 
+        margin-top: 30px; 
+    }
+}

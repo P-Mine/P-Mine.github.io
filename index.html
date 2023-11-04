@@ -6,121 +6,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <title>Project-MINE</title>
     <meta name="keywords" content="Project-MINE">
-    <link rel="stylesheet" href="css.css"> 
-    <link rel="import" href="static/navbar.html"> 
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="static/p.css">
+    <style>
+        body {
+            background: url(static/pictures/main.png);
+            background-attachment: fixed;
+            background-origin: border-box;
+            background-size: cover;
+        }
+
+        #title {
+            padding-top: 10%;
+            display: flex;
+            justify-content: center;
+        }
+
+        #intitle {
+            width: fit-content;
+            background-color: rgba(127, 127, 127, 50%);
+        }
+
+        #Project {
+            color: #ffa000;
+            text-shadow: 2px 2px 2px grey;
+            font-weight: bolder;
+            font-size: 60px;
+        }
+
+        #MINE {
+            color: #000;
+            text-shadow: 2px 2px 2px grey;
+            font-weight: bolder;
+            font-size: 125px;
+        }
+
+        button {
+            width: 200px;
+            height: 50px;
+            font-size: 20px; 
+            font-weight: bold; 
+            border: 5px solid white;
+            background-color: #ffa000;
+            color: black;
+            text-decoration-line: underline;
+        }
+
+        button:hover {
+            background-color: white;
+            border: 5px solid black;
+            color: #ffa000;
+            font-weight: bold;
+        } 
+
+        #button { 
+            text-align: center; 
+            margin-top: 5%; 
+            margin-bottom: 5%; 
+        } 
+
+        #button button { 
+            margin-left: 5%; 
+            margin-right: 5%; 
+        }
+    </style>
 </head>
 
 <body>
-    
-    <script type="text/javascript" src="static/novbar.js"></script> 
 
-    <div class="main-container"> 
-        
-        <div class="box1">
+    <script type="text/javascript" src="static/novbar.js"></script>
+
+    <div id="title">
+        <div id="intitle">
             <br>
-            <h1>关于Project-MINE</h1><br>
-            <p>Project-MINE（以下简称PM）是一个游戏制作团队，由一群游戏爱好者共同成立。目前，PM由PM制作委员会管理，制作委员会成员包括<a href="#">@我是redstone</a>、<a
-                    href="#">@Jiuyuan</a>和<a
-                    href="#">@小研Z</a>，共同负责团队的运营和决策。<br>PM成立于2022年3月30日。根据团队的规定，所有重大事项的决策需要获得制作委员会成员超过2/3的同意，并在工作组中征求意见后进行执行。
-                </o>
-        </div><br>
-        <div class="box1">
-            <h1>团队企划</h1>
-            <div class="box2">
-                <div class="box3">
-                    <table style="width: 100%;">
-                        <tr>
-                            <th colspan="2">
-                                <h2>一.方块漂浮原理 (Mineisland for Java)</h2>
-                            </th>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>负责人</p>
-                            </td>
-                            <td>
-                                <p>@我是redstone</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>企划类型</p>
-                            </td>
-                            <td>
-                                <p>RPG</p>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="box3">
-                    <table style="width: 100%;">
-                        <tr>
-                            <th colspan="2">
-                                <h2>二. 可莉生日企划 (Klee 2023 Birthday!)</h2>
-                            </th>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>负责人</p>
-                            </td>
-                            <td>
-                                <p>@我是redstone @晚枫</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>企划类型</p>
-                            </td>
-                            <td>
-                                <p>小游戏</p>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="box3">
-                    <table style="width: 100%;">
-                        <tr>
-                            <th colspan="2">
-                                <h2>三.建筑企划 </h2>
-                            </th>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>负责人</p>
-                            </td>
-                            <td>
-                                <p>@Jiuyuan</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>企划类型</p>
-                            </td>
-                            <td>
-                                <p>建筑</p>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-        </div><br>
-        <div class="box1">
-            <h2>官方账号/联系我们</h2>
+            <a id="Project" style="color:rgba(0,0,0,0%); text-shadow:none;">_</a><a id="Project"> Project </a>
             <br>
-        </div><br>
-        <div class="box1">
-            <h2>友情链接</h2>
-            <!--<a href="https://klpbbs.com/?fromuid=288954">苦力怕论坛</a>-->
-            <p>暂无</p>
-            <hr>
-            <p>Copyright ©2023.8 Project-MINE All Rights Reserved.</p>
-        </div> 
+            <a id="Project" style="color:rgba(0,0,0,0%); text-shadow:none;">_______</a> <a id="MINE">MINE</a><a
+                id="Project" style="color:rgba(0,0,0,0%); text-shadow:none;">__</a>
+            <br>
+        </div>
+    </div>
 
-        <br> 
-        
-        <script type="text/javascript" src="static/footdiv.js"></script>  
+    <br>
 
+    <div id="button"> 
+        <button id="Download">下载作品></button>
+        <button id="Join Us">加入我们></button>
     </div> 
+
+    <br> 
+
+    <script type="text/javascript" src="static/footdiv.js"></script>
 </body>
 
 </html>
