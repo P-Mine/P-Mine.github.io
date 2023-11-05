@@ -44,8 +44,8 @@
         button {
             width: 200px;
             height: 50px;
-            font-size: 20px; 
-            font-weight: bold; 
+            font-size: 20px;
+            font-weight: bold;
             border: 5px solid white;
             background-color: #ffa000;
             color: black;
@@ -57,17 +57,45 @@
             border: 5px solid black;
             color: #ffa000;
             font-weight: bold;
-        } 
+        }
 
-        #button { 
-            text-align: center; 
-            margin-top: 5%; 
-            margin-bottom: 5%; 
-        } 
+        #button {
+            text-align: center;
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
 
-        #button button { 
-            margin-left: 5%; 
-            margin-right: 5%; 
+        #button button {
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+        .hide {
+            color: rgba(0, 0, 0, 0%);
+            text-shadow: none;
+            font-size: 60px;
+        }
+
+        @media (max-width: 767px) {
+            #Project {
+                font-size: 30px;
+            }
+
+            #MINE {
+                font-size: 75px;
+            }
+
+            button {
+                width: 150px;
+                height: 30px;
+                font-size: 15px;
+            }
+
+            .hide {
+                color: rgba(0, 0, 0, 0%);
+                text-shadow: none;
+                font-size: 30px;
+            }
         }
     </style>
 </head>
@@ -79,22 +107,22 @@
     <div id="title">
         <div id="intitle">
             <br>
-            <a id="Project" style="color:rgba(0,0,0,0%); text-shadow:none;">_</a><a id="Project"> Project </a>
+            <a id="Project">_</a><a id="Project"> Project </a>
             <br>
-            <a id="Project" style="color:rgba(0,0,0,0%); text-shadow:none;">_______</a> <a id="MINE">MINE</a><a
-                id="Project" style="color:rgba(0,0,0,0%); text-shadow:none;">__</a>
+            <a class="hide">_______</a> <a id="MINE">MINE</a><a
+                class="hide" style="color:rgba(0,0,0,0%); text-shadow:none;">__</a>
             <br>
         </div>
     </div>
 
     <br>
 
-    <div id="button"> 
+    <div id="button">
         <button id="Download">下载作品></button>
         <button id="Join Us">加入我们></button>
-    </div> 
+    </div>
 
-    <br> 
+    <br>
 
     <script type="text/javascript" src="static/footdiv.js"></script>
 </body>
