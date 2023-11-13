@@ -10,14 +10,27 @@
     background-color: rgba(255, 255, 255, 75%);
     border-radius: 5px 5px;
     padding: 5px; 
-    width: 70%; 
-}
+} 
 
 /* Mobile devices */
 @media (max-width: 767px) { 
     .titlebox {
         width: 95%; 
         float: center; 
+        margin-top: 130px; 
+    } 
+
+    .contentbox {
+        width: 95%; 
+        float: center; 
+    } 
+
+    .titlebox p { 
+        font-size: 13px; 
+    } 
+
+    .titlebox p { 
+        font-size: 25px; 
     } 
 }
 
@@ -35,5 +48,13 @@
         float: left; 
         margin-left: 2.5%; 
         margin-top: 30px; 
+    } 
+
+    .contentbox p { 
+        font-size: 18px; 
     }
-}
+
+    .titlebox p { 
+        font-size: 35px; 
+    } 
+} 

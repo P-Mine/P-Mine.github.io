@@ -5,25 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <title>Project-MINE</title>
-    <meta name="keywords" content="Project-MINE">
-    <link rel="stylesheet" href="static/p.css">
+    <meta name="keywords" content="Project-MINE"> 
     <style>
         body {
-            background: url(static/pictures/main.png);
+            background: url(static/pictures/main.png); 
             background-attachment: fixed;
             background-origin: border-box;
             background-size: cover;
         }
 
-        #title {
-            padding-top: 15%;
+        #title { 
+            padding-top: 12%; 
             display: flex;
             justify-content: center;
         }
 
         #intitle {
             width: fit-content;
-            background-color: rgba(127, 127, 127, 50%);
+            background-color: rgba(127, 127, 127, 50%); 
         }
 
         #Project {
@@ -42,14 +41,14 @@
 
         button {
             width: 200px;
-            height: 50px; 
+            height: 50px;
             font-size: 20px;
             font-weight: bold;
             border: 5px solid white;
             background-color: #ffa000;
             color: black;
             text-decoration-line: underline;
-        } 
+        }
 
         button:hover {
             background-color: white;
@@ -58,15 +57,15 @@
             font-weight: bold;
         }
 
-        #button { 
+        #button {
             text-align: center;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        #button button { 
             margin-top: 5%; 
             margin-bottom: 5%; 
-        } 
-
-        #button button {
-            margin-top: 5%;
-            margin-bottom: 5%;
             margin-left: 5%;
             margin-right: 5%;
         }
@@ -77,23 +76,23 @@
             font-size: 60px;
         }
 
-        @media (max-width: 767px) { 
+        @media (max-width: 767px) {
             #Project {
                 font-size: 30px;
             }
 
-            #MINE {
-                font-size: 75px; 
+            #MINE { 
+                font-size: 75px;
             }
 
-            button {
-                width: 150px;
-                height: 35px;
+            button { 
+                width: 130px;
+                height: auto;
                 font-size: 15px;
             }
 
             .hide {
-                color: rgba(0, 0, 0, 0%); 
+                color: rgba(0, 0, 0, 0%);
                 text-shadow: none;
                 font-size: 30px;
             }
@@ -104,13 +103,15 @@
                 justify-content: center;
             }
 
-            button { 
-                border: 3px solid white;
+            button {
+                border: 3px solid white; 
+                padding-top: 5px;
+                padding-bottom: 5px; 
             }
 
-            button:hover {
+            button:hover { 
                 border: 3px solid black;
-            } 
+            }
 
         }
     </style>
@@ -118,7 +119,8 @@
 
 <body>
 
-    <script type="text/javascript" src="static/navbar.js"></script>
+    <div class="navbar"></div> 
+    <!-- <script type="text/javascript" src="static/navbar.js"></script> --> 
     <div id="title">
         <div id="intitle">
             <br>
@@ -137,9 +139,11 @@
     </div>
 
     <br>
-    <br>
 
-    <script type="text/javascript" src="static/footdiv.js"></script>
-</body>
+    <!-- <script type="text/javascript" src="static/footdiv.js"></script> --> 
+    <div class="footdiv"></div>  
+    <script type="text/javascript" src="static/libs/jquery.js"></script> 
+    <script type="text/javascript" src="static/load.js"></script> 
+</body> 
 
-</html>
+</html> 
