@@ -23,7 +23,7 @@
             line-height: 100%;
         }
 
-        .footbox tbody td {
+        .footbox tbody td { 
             vertical-align: top;
             line-height: 200%;
             text-align: left;
@@ -52,10 +52,14 @@
                 font-size: 15px;
                 width: 250px;
                 padding-bottom: 15px;
-            }
+            } 
+
+            .footnote {
+                font-size: 15px;
+            } 
         }
 
-        @media (max-width: 767px) {
+        @media (max-width: 767px) { 
             .footbox thead th {
                 width: 150px;
                 font-size: 15px;
@@ -67,11 +71,15 @@
                 width: 150px;
                 padding-bottom: 10px;
             }
+
+            .footnote {
+                font-size: 10px;
+            }
         }
     </style>
 </head>
 
-<body> 
+<body>
     <div class="footbox">
         <br>
         <table>
@@ -82,7 +90,7 @@
             </thead>
             <tr>
                 <td>
-                    <a href="/index.html">Project-MINE </a> 
+                    <a href="/index.html">Project-MINE </a> <br>
                     <a href="/development/changelog.html">更新日志 </a>
                 <td>
                     <a href="https://www.mcbbs.net/?4982639">MCBBS </a> <br>
@@ -92,15 +100,15 @@
                     <a herf="index.html">Project-MINE </a>
                 </td>
             </tr>
-        </table>
+        </table> 
 
         <br>
-
-        <p>声明：本站与Mojang以及微软公司没有从属关系，Project-MINE 是独立的游戏制作团体 </p>
-        <p>Copyright 2023-2023 Project-MINE All rights reserved </p>
-
-        <br> 
-    </div> 
+        <div class="footnote">
+            <p>声明：本站与Mojang以及微软公司没有从属关系，Project-MINE 是独立的游戏制作团体 </p>
+            <p>Copyright 2023-2023 Project-MINE All rights reserved </p>
+        </div>
+        <br>
+    </div>
 </body>
 
 </html>

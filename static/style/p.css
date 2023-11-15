@@ -12,6 +12,13 @@
     padding: 5px; 
 } 
 
+body {
+    color: rgb(240, 240, 240); 
+    background-attachment: fixed;
+    background-origin: border-box;
+    background-size: cover;
+}
+
 /* Mobile devices */
 @media (max-width: 767px) { 
     .titlebox {
@@ -24,6 +31,10 @@
         width: 95%; 
         float: center; 
     } 
+
+    .sidebar { 
+        visibility:hidden; 
+    }
 
     .titlebox p { 
         font-size: 13px; 
@@ -44,9 +55,16 @@
     } 
 
     .contentbox { 
-        width: 65%; 
+        width: 60%; 
         float: left; 
-        margin-left: 2.5%; 
+        margin-left: 5%; 
+        margin-top: 30px; 
+    } 
+
+    .sidebar { 
+        width: 25%; 
+        float: right; 
+        margin-right: 5%; 
         margin-top: 30px; 
     } 
 
