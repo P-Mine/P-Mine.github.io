@@ -4,22 +4,24 @@
 
 In this folder, the static components of the website is stored. 
 
-### \footdiv.js AND \footdiv.html 
-
-This is the foot div of the website. The html file is the human written file and the .js file is the js file used to import into the pages 
+### \footdiv.html 
 
 In footdiv, the information of the page is stored 
 
-### \navbar.js AND \navbar.html 
+### \navbar.html 
 
 This is used to store the navbar of the website 
 
 ### \libs 
 
+This stores the libs of the website 
+
 #### \jquery.js 
 
 This is a segment of code from jQuery JavaScript Library v1.9.1, visit this website to check the lisence for this file: http://jquery.com/  
 
-## Map 
+## Development  
 
-In this folder, the map is stored 
+In this folder, the development stages and the documents of the websites are stored 
+
+## index 
