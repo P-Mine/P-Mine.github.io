@@ -1,0 +1,54 @@
+body {
+    background: url(bg.png); 
+    background-attachment: fixed;
+    background-origin: border-box;
+    background-size: cover;
+}
+
+.cont { 
+    padding-top: 70px; 
+    float: center;
+    justify-content:center; 
+    width: 100%; 
+    padding-bottom: 30px; 
+} 
+
+.box { 
+    text-align: left;
+    background-color: rgba(200, 200, 200, 75%); 
+    margin-left: 10%; 
+    padding-left: 20px; 
+    width: 80%; 
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-bottom: 10px; 
+    margin-bottom: 30px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+} 
+
+.box ol { 
+    padding-left: 20px; 
+} 
+
+.box h1 {
+    font-size: 25px;
+} 
+
+.box h2 {
+    font-size: 20px;
+} 
+
+@media (max-width: 767px) {
+    .box {
+        font-size: 10px;
+    }
+
+    .box h1 {
+        font-size: 20px; 
+    } 
+
+    .box h2 {
+        font-size: 15px; 
+    } 
+}  
